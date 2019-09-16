@@ -6,7 +6,7 @@ const Track = props => {
   const { track } = props;
   return (
     <div className="col-md-6">
-      <div className="card mb-4 shadow-sm">
+      <div className="card mb-4">
         <div className="card-body">
           {/* display the name of the artist */}
           <h5>{track.artist_name}</h5>
@@ -24,8 +24,9 @@ const Track = props => {
             : {track.album_name}
           </p>
           <Link
+            /* Link to a page, where the lyrics can be viewed */
             to={`lyrics/track/${track.track_id}`}
-            className="btn btn-dark btn-block"
+            className="btn btn-dark btn-block draw-border"
           >
             View Lyrics
           </Link>

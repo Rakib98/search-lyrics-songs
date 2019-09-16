@@ -19,7 +19,7 @@ class Tracks extends Component {
             /* if the track list has items, display them */
             return (
               <React.Fragment>
-                <h3 className="text-center mb-4">{heading}</h3>
+                <h3 className="text-center title-heading mb-4">{heading}</h3>
                 <div className="row">
                   {/* map through the list, so that all the tracks can be displayed */}
                   {track_list.map(item => (
