@@ -6,7 +6,7 @@ const Track = props => {
   const { track } = props;
   return (
     <div className="col-md-6">
-      <div className="card mb-4">
+      <div className="card card-tracks mb-4">
         <div className="card-body">
           {/* display the name of the artist */}
           <h5>{track.artist_name}</h5>

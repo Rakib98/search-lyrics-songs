@@ -11,6 +11,26 @@ body {
   box-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 
+/* Search */
+.form-search-song input {
+  border-radius: 0;
+  background-color: rgb(34, 33, 33);
+  border: 1px solid orange;
+  color: white;
+}
+
+.input-search-song:focus,
+.input-search-song:active {
+  border: 1px solid orange;
+  outline: none !important;
+  box-shadow: 0px 0px 5px rgb(34, 33, 33) !important;
+  background-color: inherit;
+}
+
+.form-search-song input[type="text"] {
+  color: white;
+}
+
 /* Title in the homepage */
 .title-heading {
   color: rgb(255, 255, 255);
@@ -46,9 +66,13 @@ body {
   border-bottom: 1px rgb(110, 74, 6) solid;
 }
 
-.card:hover {
+.card-tracks:hover {
   transform: scale(1.02);
 }
+
+/* .card-lyrics:hover {
+  transform: scale(1);
+} */
 
 /* Button styles */
 

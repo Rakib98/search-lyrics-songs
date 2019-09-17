@@ -43,7 +43,7 @@ class Lyrics extends Component {
           <Link to="/" className="btn btn-dard btn-sm mb-4">
             Back
           </Link>
-          <div className="card">
+          <div className="card card-lyrics">
             <h5 className="card-header text-light">
               {track.track_name} by{" "}
               <span className="card-artist"> {track.artist_name} </span>
